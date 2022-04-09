@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Festive&family=Fredoka+One&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ecf4ff;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Festive', cursive;
+    font-family: 'Fredoka One', cursive;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 800px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    height: 100vh;
+}
+
+#light {
+    display: none;
+}
+
+#dark {
+    display: block;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 328px;
+    height: 329px;
+    text-align: center;
+    border-radius: 85% 10% 35% 61% / 69% 35% 50% 33%;
+    background: rgb(171, 43, 175);
+    background: linear-gradient(90deg, rgba(171, 43, 175, 1) 26%, rgba(255, 0, 0, 1) 97%, rgba(176, 14, 34, 1) 100%);
+    ;
+    overflow: hidden;
+}
+
+span {
+    color: rgb(211, 20, 20);
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Festive', cursive;
+    font-family: 'Fredoka One', cursive;
+}
+
+img {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.more {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
